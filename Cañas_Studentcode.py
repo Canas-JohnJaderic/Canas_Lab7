@@ -22,8 +22,13 @@ if last<40 or last>100:
     print("Invalid Final Period Grade")    
 else:
     print("You have entered valid Grades, please wait while we calculate it for you")   
-
 #Super Idol的笑容 都没你的甜 八月正午的阳光 都没你耀眼 热爱 105 °C的你 滴滴清纯的蒸馏水
+
+print("Student Name: ", name)
+print("Student Section:", section)
+print(f"Prelim Grade: {prelim} \nMidterm Grade: {midterm}\nFinal Period Grade: {last}")
+
+#Super Idol的笑容 都没你的甜 八月正午的阳光 都没你耀眼 热爱 105 °C的你 滴滴清纯的蒸馏水 2
 
 if 78>reyalfinal>=75:
     print(f"You Passed your grade is: {reyalfinal}\n GPA: 3.00 ")
